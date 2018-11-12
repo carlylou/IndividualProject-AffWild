@@ -1,0 +1,516 @@
+
+face-gru-128/model.ckpt-63919
+2018-07-19 16:36:47.574961: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0537973791]
+2018-07-19 16:36:47.574976: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.021742586]
+2018-07-19 16:36:47.575119: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0377699807]
+2018-07-19 16:36:47.575162: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.156165898]
+2018-07-19 16:36:47.575189: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.361734718]
+2018-07-19 16:36:47.575236: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.258950293]
+
+
+face-gru-128/model.ckpt-38124
+2018-07-19 16:48:52.435537: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0337949432]
+2018-07-19 16:48:52.435583: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0228863843]
+2018-07-19 16:48:52.436022: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0283406638]
+2018-07-19 16:48:52.436138: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.353395104]
+2018-07-19 16:48:52.436301: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.358625919]
+2018-07-19 16:48:52.436551: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.356010497]
+
+face-lstm-128/model.ckpt-42688
+
+2018-07-19 16:48:33.880161: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0307974778]
+2018-07-19 16:48:33.880266: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0225169342]
+2018-07-19 16:48:33.880641: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0266572051]
+2018-07-19 16:48:33.880706: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.289726198]
+2018-07-19 16:48:33.880792: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.294089556]
+2018-07-19 16:48:33.880882: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.291907877]
+
+face-lstm-128/model.ckpt-49898
+
+2018-07-19 16:54:06.509576: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0365436785]
+2018-07-19 16:54:06.509617: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0293506179]
+2018-07-19 16:54:06.509766: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0329471491]
+2018-07-19 16:54:06.509795: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.303366482]
+2018-07-19 16:54:06.509831: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.249123037]
+2018-07-19 16:54:06.509871: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.27624476]
+
+
+face-gru-highway/model.ckpt-135370
+2018-07-22 14:19:00.006653: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0353215933]
+2018-07-22 14:19:00.006705: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0378361195]
+2018-07-22 14:19:00.007022: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0365788564]
+2018-07-22 14:19:00.007065: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.233534604]
+2018-07-22 14:19:00.007141: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.0572442859]
+2018-07-22 14:19:00.007190: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.145389438]
+
+face-gru-highway/model.ckpt-23859
+2018-07-22 14:25:21.359563: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0500147939]
+2018-07-22 14:25:21.359605: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0332862735]
+2018-07-22 14:25:21.359741: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0416505337]
+2018-07-22 14:25:21.359776: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.21522744]
+2018-07-22 14:25:21.359804: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.13821739]
+2018-07-22 14:25:21.359845: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.176722407]
+
+
+
+face-gru-residual/model.ckpt-61335
+2018-07-22 14:36:46.547913: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0803062]
+2018-07-22 14:36:46.548161: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.238721952]
+2018-07-22 14:36:46.549009: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.0279709157]
+2018-07-22 14:36:46.549037: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.15951407]
+2018-07-22 14:36:46.549103: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.136017203]
+2018-07-22 14:36:46.549319: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.0819940567]
+
+
+face-gru-residual/model.ckpt-55972
+
+2018-07-22 14:43:06.096865: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.2361788]
+2018-07-22 14:43:06.096865: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.000483046053]
+2018-07-22 14:43:06.096865: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.119807549]
+2018-07-22 14:43:06.096896: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.177993178]
+2018-07-22 14:43:06.096865: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.196992621]
+2018-07-22 14:43:06.097015: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.0987378359]
+
+
+
+
+
+
+
+face_gru_atten/model.ckpt-66571
+
+2018-07-25 10:02:05.938712: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0203128047]
+2018-07-25 10:02:05.938814: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0334411263]
+2018-07-25 10:02:05.939059: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0268769655]
+2018-07-25 10:02:05.939093: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.408700466]
+2018-07-25 10:02:05.939115: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.346524805]
+2018-07-25 10:02:05.939207: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.37761265]
+
+face_gru_atten/model.ckpt-20303
+
+2018-07-25 10:13:26.207640: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0263952781]
+2018-07-25 10:13:26.207725: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0323944651]
+2018-07-25 10:13:26.207836: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0293948725]
+2018-07-25 10:13:26.207866: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.341984659]
+2018-07-25 10:13:26.207908: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.412489861]
+2018-07-25 10:13:26.207986: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.37723726]
+
+
+
+
+
+
+
+
+face_atten_case1/model.ckpt-12760
+2018-08-13 22:18:06.550579: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0232144576]
+2018-08-13 22:18:06.550665: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0242903735]
+2018-08-13 22:18:06.551029: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0237524156]
+2018-08-13 22:18:06.551099: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.35280937]
+2018-08-13 22:18:06.551100: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.312655926]
+2018-08-13 22:18:06.551221: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.332732648]
+
+face_atten_case1/model.ckpt-110257
+2018-08-13 22:34:33.639331: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0304079559]
+2018-08-13 22:34:33.639443: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0306742601]
+2018-08-13 22:34:33.639653: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.218330026]
+2018-08-13 22:34:33.639655: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0305411071]
+2018-08-13 22:34:33.639695: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.072301]
+2018-08-13 22:34:33.639760: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.145315513]
+face_atten_case1/model.ckpt-111669
+2018-08-13 22:44:37.658088: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0293256231]
+2018-08-13 22:44:37.658147: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.027665304]
+2018-08-13 22:44:37.658269: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0284954645]
+2018-08-13 22:44:37.658296: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.221240282]
+2018-08-13 22:44:37.658339: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.10634011]
+2018-08-13 22:44:37.658375: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.163790196]
+
+
+
+
+
+
+
+
+
+
+
+face_atten_case2/model.ckpt-42140
+2018-08-12 20:57:17.262155: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0204237457]
+2018-08-12 20:57:17.262192: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0203835666]
+2018-08-12 20:57:17.262462: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0204036571]
+2018-08-12 20:57:17.262532: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.32694006]
+2018-08-12 20:57:17.262534: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.478991598]
+2018-08-12 20:57:17.262663: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.402965844]
+
+face_atten_case2/model.ckpt-76040
+2018-08-12 21:07:29.781461: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0223266799]
+2018-08-12 21:07:29.781521: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0229854193]
+2018-08-12 21:07:29.781680: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0226560496]
+2018-08-12 21:07:29.781724: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.449569076]
+2018-08-12 21:07:29.781759: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.255683]
+2018-08-12 21:07:29.781817: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.352626026]
+
+
+
+face_atten_case3/model.ckpt-26194
+2018-08-15 11:26:39.084670: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0203718431]
+2018-08-15 11:26:39.084749: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0179839432]
+2018-08-15 11:26:39.085071: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0191778932]
+2018-08-15 11:26:39.085119: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.421274185]
+2018-08-15 11:26:39.085219: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.421778142]
+2018-08-15 11:26:39.085301: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.421526164]
+
+/face_atten_case3/model.ckpt-33731
+2018-08-15 11:42:36.966710: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.01842089]
+2018-08-15 11:42:36.966712: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0165752769]
+2018-08-15 11:42:36.966873: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0174980834]
+2018-08-15 11:42:36.966902: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.554733872]
+2018-08-15 11:42:36.966978: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.456378222]
+2018-08-15 11:42:36.967037: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.505556047]
+
+
+
+
+
+
+
+old-face_atten_case3_100/model.ckpt-18221
+2018-08-18 11:44:12.316309: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0209657215]
+2018-08-18 11:44:12.316356: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0201455466]
+2018-08-18 11:44:12.316573: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0205556341]
+2018-08-18 11:44:12.316630: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.435308367]
+2018-08-18 11:44:12.316685: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.402151614]
+2018-08-18 11:44:12.316749: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.41873]
+
+old-face_atten_case3_100/model.ckpt-26423
+2018-08-18 11:58:52.587295: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0207440741]
+2018-08-18 11:58:52.587371: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0207622796]
+2018-08-18 11:58:52.588138: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0207531769]
+2018-08-18 11:58:52.588241: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.454922587]
+2018-08-18 11:58:52.588413: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.353833914]
+2018-08-18 11:58:52.588415: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.404378235]
+
+
+
+
+
+
+face_atten_case2_100/model.ckpt-16547
+2018-08-19 23:22:32.734059: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0158502813]
+2018-08-19 23:22:32.734118: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.024836408]
+2018-08-19 23:22:32.734360: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0203433447]
+2018-08-19 23:22:32.734379: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.459255844]
+2018-08-19 23:22:32.734453: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.402789742]
+2018-08-19 23:22:32.734499: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.431022793]
+
+face_atten_case2_100/model.ckpt-18142
+2018-08-19 23:34:14.974262: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0158358701]
+2018-08-19 23:34:14.974394: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0264258143]
+2018-08-19 23:34:14.974589: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0211308412]
+2018-08-19 23:34:14.974608: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.458777636]
+2018-08-19 23:34:14.974636: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.286622792]
+2018-08-19 23:34:14.974738: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.372700214]
+
+
+face_atten_case3_100/model.ckpt-14971
+2018-08-22 11:58:09.453370: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0247343276]
+2018-08-22 11:58:09.453386: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0171305127]
+2018-08-22 11:58:09.453568: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0209324211]
+2018-08-22 11:58:09.453612: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.351279348]
+2018-08-22 11:58:09.453685: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.403665751]
+2018-08-22 11:58:09.453730: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.37747255]
+
+
+face_atten_case3_100/model.ckpt-29344
+2018-08-22 12:06:33.509953: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0195268746]
+2018-08-22 12:06:33.509953: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0181954]
+2018-08-22 12:06:33.510211: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0188611373]
+2018-08-22 12:06:33.510260: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.498305082]
+2018-08-22 12:06:33.510319: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.387776285]
+2018-08-22 12:06:33.510383: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.443040669]
+
+
+
+face_atten_case2_70/model.ckpt-46294
+2018-08-22 11:42:55.356521: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0229665451]
+2018-08-22 11:42:55.356590: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.020410195]
+2018-08-22 11:42:55.356894: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.02168837]
+2018-08-22 11:42:55.356944: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.366716862]
+2018-08-22 11:42:55.357050: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.346134484]
+2018-08-22 11:42:55.357127: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.356425673]
+
+face_atten_case2_70/model.ckpt-35958
+2018-08-22 11:34:03.302516: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.022893317]
+2018-08-22 11:34:03.302526: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0178167075]
+2018-08-22 11:34:03.302665: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0203550123]
+2018-08-22 11:34:03.302701: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.35670647]
+2018-08-22 11:34:03.302743: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.32976836]
+2018-08-22 11:34:03.302778: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.3432374]
+
+
+
+face_atten_case3_70/model.ckpt-8123
+2018-08-23 20:29:28.938256: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0227890406]
+2018-08-23 20:29:28.938265: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0168403573]
+2018-08-23 20:29:28.938476: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0198147]
+2018-08-23 20:29:28.938525: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.375832826]
+2018-08-23 20:29:28.938578: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.430565834]
+2018-08-23 20:29:28.938642: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.403199315]
+
+face_atten_case3_70/model.ckpt-9165
+2018-08-23 20:38:52.390042: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0163858421]
+2018-08-23 20:38:52.390042: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.021182891]
+2018-08-23 20:38:52.390213: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0187843665]
+2018-08-23 20:38:52.390224: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.403027534]
+2018-08-23 20:38:52.390257: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.499093682]
+2018-08-23 20:38:52.390339: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.451060593]
+
+face_atten_case3_70/model.ckpt-35988
+2018-08-23 20:47:39.123090: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0200165138]
+2018-08-23 20:47:39.123165: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.018029578]
+2018-08-23 20:47:39.123303: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0190230459]
+2018-08-23 20:47:39.123339: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.491464227]
+2018-08-23 20:47:39.123380: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.42367962]
+2018-08-23 20:47:39.123424: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.457571924]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+face_indRNN/model.ckpt-20848
+
+eval/mse_valence[0.0313696414]
+eval/mse_arousal[0.0274643116]
+eval/mse_total[0.0294169765]
+eval/concordance_arousal[0.236719802]
+eval/concordance_valence[0.331781209]
+eval/concordance_total[0.284250498]
+
+face_indRNN/model.ckpt-31409
+eval/mse_valence[0.0280026793]
+eval/mse_arousal[0.0235325694]
+eval/mse_total[0.0257676244]
+eval/concordance_arousal[0.254479498]
+eval/concordance_valence[0.392012626]
+eval/concordance_total[0.323246062]
+
+
+
+
+face2_gru_atten/model.ckpt-173717
+2018-08-05 11:39:17.699333: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0533260852]
+2018-08-05 11:39:17.699389: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0334576033]
+2018-08-05 11:39:17.699594: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0433918461]
+2018-08-05 11:39:17.699648: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.0686300844]
+2018-08-05 11:39:17.699707: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.0797909126]
+2018-08-05 11:39:17.699822: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.0742104948]
+
+
+face2_gru_atten/model.ckpt-260336
+2018-08-05 12:07:51.302137: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0483005606]
+2018-08-05 12:07:51.302249: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0261206087]
+2018-08-05 12:07:51.302411: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0372105837]
+2018-08-05 12:07:51.302455: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.0427630655]
+2018-08-05 12:07:51.302522: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.166127145]
+2018-08-05 12:07:51.302657: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.104445107]
+
+
+
+
+
+res50_atten/model.ckpt-96006
+2018-08-07 13:46:57.950235: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0668580458]
+2018-08-07 13:46:57.950257: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0535710305]
+2018-08-07 13:46:57.950528: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0602145381]
+2018-08-07 13:46:57.950612: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.171786159]
+2018-08-07 13:46:57.950650: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.00578929903]
+2018-08-07 13:46:57.950744: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.0887877271]
+
+
+res50_atten/model.ckpt-100429
+2018-08-07 14:00:54.054391: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.05767579]
+2018-08-07 14:00:54.054431: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0569802672]
+2018-08-07 14:00:54.054548: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0573280305]
+2018-08-07 14:00:54.054592: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.203468546]
+2018-08-07 14:00:54.054678: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[-0.0914988369]
+2018-08-07 14:00:54.054680: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.0559848547]
+
+res50_atten/model.ckpt-140149
+2018-08-07 17:34:07.523868: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0444073975]
+2018-08-07 17:34:07.523877: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0342400074]
+2018-08-07 17:34:07.524140: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0393237025]
+2018-08-07 17:34:07.524176: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.27977103]
+2018-08-07 17:34:07.524232: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.106706209]
+2018-08-07 17:34:07.524312: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.193238616]
+
+res50_atten_case1/model.ckpt-52602
+2018-08-08 13:24:22.169735: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.046266295]
+2018-08-08 13:24:22.169774: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0680670887]
+2018-08-08 13:24:22.169893: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0571666919]
+2018-08-08 13:24:22.169908: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.0714139789]
+2018-08-08 13:24:22.169951: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.161540791]
+2018-08-08 13:24:22.170002: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.116477385]
+
+
+res50_atten_case1/model.ckpt-109944
+2018-08-08 13:37:57.115548: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0384477265]
+2018-08-08 13:37:57.115569: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.048282437]
+2018-08-08 13:37:57.115656: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0433650836]
+2018-08-08 13:37:57.115665: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.0366114788]
+2018-08-08 13:37:57.115678: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.163069665]
+2018-08-08 13:37:57.115752: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.099840574]
+
+
+res50_atten_case2/model.ckpt-123666
+2018-08-09 19:34:22.605140: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0187305771]
+2018-08-09 19:34:22.605282: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0327509791]
+2018-08-09 19:34:22.605703: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0257407781]
+2018-08-09 19:34:22.605765: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.302846789]
+2018-08-09 19:34:22.605771: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.39296639]
+2018-08-09 19:34:22.605926: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.34790659]
+
+res50_atten_case2/model.ckpt-136049
+2018-08-09 19:42:33.697970: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0305435453]
+2018-08-09 19:42:33.698085: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0233189296]
+2018-08-09 19:42:33.698490: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0269312374]
+2018-08-09 19:42:33.698559: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.293866605]
+2018-08-09 19:42:33.698627: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.271865904]
+2018-08-09 19:42:33.698724: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.28286624]
+
+
+
+res50_atten_case3/model.ckpt-23157
+2018-08-10 14:03:04.579453: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0244422927]
+2018-08-10 14:03:04.579453: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0302048493]
+2018-08-10 14:03:04.579601: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0273235701]
+2018-08-10 14:03:04.579645: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.281229168]
+2018-08-10 14:03:04.579723: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.262594163]
+2018-08-10 14:03:04.579724: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.243959129]
+
+
+res50_atten_case3/model.ckpt-36954
+2018-08-10 14:09:29.036487: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0185044054]
+2018-08-10 14:09:29.036548: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0268179793]
+2018-08-10 14:09:29.036838: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0226611923]
+2018-08-10 14:09:29.036861: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.429345489]
+2018-08-10 14:09:29.036938: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.332035929]
+2018-08-10 14:09:29.037016: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.380690694]
+
+
+
+
+
+
+/dense_atten/model.ckpt-59345
+2018-08-05 12:22:42.695053: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0569302812]
+2018-08-05 12:22:42.695127: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0630715415]
+2018-08-05 12:22:42.695249: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0600009114]
+2018-08-05 12:22:42.695287: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[-0.0262622088]
+2018-08-05 12:22:42.695323: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.106048241]
+2018-08-05 12:22:42.695437: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.0398930162]
+
+dense_atten/model.ckpt-76607
+2018-08-05 13:57:54.637744: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0341427922]
+2018-08-05 13:57:54.637799: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0612947047]
+2018-08-05 13:57:54.639193: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0477187485]
+2018-08-05 13:57:54.639194: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.185185]
+2018-08-05 13:57:54.639197: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.15399161]
+2018-08-05 13:57:54.639222: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.169588298]
+
+
+dense121_atten_case2_e5/model.ckpt-34106
+2018-08-16 14:59:31.063274: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.02441407]
+2018-08-16 14:59:31.063367: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0260227099]
+2018-08-16 14:59:31.063693: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0252183899]
+2018-08-16 14:59:31.063721: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.288304538]
+2018-08-16 14:59:31.063785: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.425085813]
+2018-08-16 14:59:31.063918: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.356695175]
+
+dense121_atten_case2_e5/model.ckpt-55732
+2018-08-16 15:28:42.727641: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0218904633]
+2018-08-16 15:28:42.727738: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0241962876]
+2018-08-16 15:28:42.727958: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0230433755]
+2018-08-16 15:28:42.727971: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.293765873]
+2018-08-16 15:28:42.728009: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.46839872]
+2018-08-16 15:28:42.728077: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.381082296]
+
+
+dense121_atten_case3/model.ckpt-66188
+2018-08-17 10:56:23.767647: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0215316787]
+2018-08-17 10:56:23.767940: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0205339938]
+2018-08-17 10:56:23.768243: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0210328363]
+2018-08-17 10:56:23.768324: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.449170321]
+2018-08-17 10:56:23.768448: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.305859774]
+2018-08-17 10:56:23.768738: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.377515048]
+
+
+dense121_atten_case3/model.ckpt-72568
+2018-08-17 11:06:45.436750: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0212931726]
+2018-08-17 11:06:45.437053: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0280648395]
+2018-08-17 11:06:45.437110: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0246790051]
+2018-08-17 11:06:45.437128: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.360527724]
+2018-08-17 11:06:45.437132: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.367738515]
+2018-08-17 11:06:45.437132: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.374949306]
+
+dense121_atten_case3/model.ckpt-97695
+2018-08-17 20:45:57.178840: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0248425379]
+2018-08-17 20:45:57.178886: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.021126803]
+2018-08-17 20:45:57.179065: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0229846705]
+2018-08-17 20:45:57.179106: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.367872268]
+2018-08-17 20:45:57.179153: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.311524153]
+2018-08-17 20:45:57.179213: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.339698195]
+
+
+
+
+
+
+
+
+
+
+
+
+dense161_atten/model.ckpt-126248
+2018-08-05 14:33:57.593642: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0436663814]
+2018-08-05 14:33:57.593694: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0438376963]
+2018-08-05 14:33:57.593707: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.0957848653]
+2018-08-05 14:33:57.593709: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0440090075]
+2018-08-05 14:33:57.593754: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.0402804799]
+2018-08-05 14:33:57.593698: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.151289254]
+
+dense161_atten/model.ckpt-181188
+2018-08-05 15:05:55.459833: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0318292379]
+2018-08-05 15:05:55.459884: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0369095728]
+2018-08-05 15:05:55.459907: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.157845289]
+2018-08-05 15:05:55.459896: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.101262808]
+2018-08-05 15:05:55.459896: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0419899113]
+2018-08-05 15:05:55.459944: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.214427754]
+
+dense169_atten/model.ckpt-84904
+2018-08-05 16:00:36.107194: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.110222861]
+2018-08-05 16:00:36.107229: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0525274426]
+2018-08-05 16:00:36.107194: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0386591218]
+2018-08-05 16:00:36.107215: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.142729238]
+2018-08-05 16:00:36.107194: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.0777164847]
+2018-08-05 16:00:36.107194: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.066395767]
+
+dense169_atten/model.ckpt-75206
+2018-08-05 16:10:25.097394: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_valence[0.0459747836]
+2018-08-05 16:10:25.097396: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_arousal[0.0396134332]
+2018-08-05 16:10:25.097441: I tensorflow/core/kernels/logging_ops.cc:79] eval/mse_total[0.0427941084]
+2018-08-05 16:10:25.097451: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_arousal[0.10378021]
+2018-08-05 16:10:25.097476: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_total[0.0805177093]
+2018-08-05 16:10:25.097463: I tensorflow/core/kernels/logging_ops.cc:79] eval/concordance_valence[0.0572552122]
+

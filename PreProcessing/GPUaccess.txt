@@ -1,0 +1,149 @@
+/vol/bitbucket/ml9915/anaconda3/bin/conda
+/vol/gpudata/ml9915/Anaconda/bin/conda
+1.
+PBS Pro use SSH to run jobs that you submit on the GPU work-stations.
+
+###############################
+ssh firecrest.doc.ic.ac.uk
+###############################
+
+can access to firecrest.doc.ic.ac.uk from any other CSG-managed Linux computer in the department.
+so firecrest.doc.ic.ac.uk is also managed by department
+
+More importantly, the above configuration will allow PBS Pro to schedule your GPU compute tasks on the GPU servers.
+
+2. GPU DATA
+
+The purpose of /vol/gpudata is for users to store data and output results from tasks run on the
+GPU cluster. if you use it, please only store data connected with your approved use of the GPU cluster.
+
+Being a network share, /vol/gpudata can be accessed by all CSG-managed Linux computers.
+It is a good location to store data that must be consulted by your processes when they run on the
+cluster. It is also a good place to store output from your processes.
+
+###############################
+so it is recommanded to store the GPU processes.
+###############################
+
+On firecrest, the local path for /vol/gpudata is /export/vol/gpudata.
+
+###############################
+cd /export/vol/gpudata/ml9915
+###############################
+
+The GPU servers have a fast, private connection to firecrest. Accessing /vol/gpudata from the
+GPU servers is therefore a lot faster than accessing /vol/gpudata from – say – a lab computer.
+
+This is helpful when running your jobs on the GPU cluster: \
+###############################
+reading data from and writing output to /vol/gpudata is a lot faster than reading and writing from/to – say – /vol/bitbucket or
+your departmental home directory.
+###############################
+
+CSG have also placed a copy of the multiple versions of the
+CUDA tool-kit under /vol/gpudata/cuda. This is faster to access than /vol/cuda for the
+same reasons as already outlined.
+
+3. steps involved in submitting a PBS Pro job on firecrest
+top
+kill -9 PID
+###############################
+1.
+ssh firecrest.doc.ic.ac.uk
+source .bashrc
+source activate gpu-2.7
+
+2.
+. /etc/profile.d/pbs.sh
+
+3. Change to an appropriate directory on firecrest:
+
+cd /vol/gpudata/ml9915/PBS
+
+4.
+qsub /vol/gpudata/ml9915/IndividualProject/start_train.sh
+
+5.
+You can invoke the qstat command to see information on running jobs.
+pbseg.sh.oXYZ for any standard output.
+pbseg.sh.eXYZ for any standard error output.
+
+// using this to check all PBS jobs
+qstat -an
+
+#######################################################
+// check all online GPU
+pbsnodes -a
+#######################################################
+
+// kill a PBS job
+// delete the corresponding job like so:
+qdel <job_id>
+
+qstat -an |grep ml9915
+1992.firecrest. ml9915   workq    start_trai   3001   1   1    --    --  R 41:37
+2067.firecrest. ml9915   workq    start_vali  90178   1   1    --    --  R 22:42
+
+qdel 1992.firecrest
+
+4.
+GPU jobs will make use of the Nvidia CUDA tool-kit. Multiple versions of this tool-kit are
+available under /vol/cuda and /vol/gpudata/cuda.
+
+5. tensorboards
+
+source activate venv-2.7
+tensorboard --logdir=/vol/gpudata/ml9915/summary/gru/
+
+
+
+#######################################################
+GPU COMMAND
+#######################################################
+1. nvidia-smi
+The nvidia-smi just outputs the GPU memory (12022MiB / 12206MiB) and the processes and their GPU usage:
+|    0    176349      C   python3                                     1694MiB |
+|    0    178200      C   python3                                     1847MiB |
+|    0    179207      C   python3                                     1886MiB |
+|    0    184066      C   python                                      1873MiB |
+|    0    191055      C   python                                      4689MiB
+2.  gives more specific details including who is running those commands.
+nvidia-smi -q -d pids | grep 'Process ID' | cut -d: -f2 | cut -c2- | xargs -I {} ps -u -p {}
+echo "top -b -n 1 -u ml9915" | qsub -l nodes=gpu05
+3.
+CUDA_VISIBLE_DEVICES=no_of_gpu_that_is_empty // So that tensorflow does not consume all GPUs.
+CUDA_VISIBLE_DEVICES=1 python name_of_script.py
+
+4.
+ssh ladybug
+nvidia-smi
+// to find which GPU is empty
+
+on ladybug run :
+
+
+source /vol/gpudata/cuda/8.0.61-cudnn.7.0.2/setup.sh
+source /vol/gpudata/ml9915/Anaconda/bin/activate gpu-2.7
+/vol/gpudata/ml9915/IndividualProject/eva_face_gru.py
+/vol/gpudata/ml9915/IndividualProject/eva_face_lstm.py
+
+
+source /vol/bitbucket/ml9915/anaconda3/bin/activate venv-2.7
+python /vol/bitbucket/ml9915/code/pycharmProject/IndividualProject/train_gru_128.py
+python /vol/bitbucket/ml9915/code/pycharmProject/IndividualProject/eva_gru_128.py
+
+
+CUDA_VISIBLE_DEVICES=0 python ur_program.py
+those 2 graphic  (11/12) machines have really low GPU memory, so I would suggest to use your sequence_length with batch_size=1.
+
+
+
+
+
+
+
+
+
+
+qsub /vol/gpudata/ml9915/IndividualProject/eva_atten_len.sh
+qsub /vol/gpudata/ml9915/IndividualProject/train_atten_len.sh
